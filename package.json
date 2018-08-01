@@ -1,6 +1,6 @@
 {
-  "name": "config",
-  "version": "2.0.1",
+  "name": "@anejs/config",
+  "version": "0.0.1",
   "main": "./lib/config.js",
   "description": "Configuration control for production node deployments",
   "author": "Loren West <open_source@lorenwest.com>",
@@ -35,6 +35,9 @@
     "underscore": "^1.8.3",
     "vows": ">=0.8.1",
     "x2js": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
